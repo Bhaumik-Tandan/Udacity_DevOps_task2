@@ -33,8 +33,8 @@ import {filterImageFromURL, deleteLocalFiles,validateImageURL} from './util/util
   
   // Root Endpoint
   // Displays a simple message to the user
-  app.get( "/filteredimage", async ( req, res ) => {
-    let { image_url } = req.query;
+  app.get( "/filteredimage", async ( req: express.Request, res:express.Response ) => {
+    let { image_url }:{ image_url: string } = req.query as { image_url: string };
     if (!validateImageURL(image_url)) {
       res.status(400).send({ message: 'image_url is not valid' });
     }
