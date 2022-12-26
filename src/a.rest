@@ -1,1 +1,1 @@
-GET  http://localhost:8082/filteredimage?image_url=https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2020/12/03/Lambda-container-image-support.png
+GET  http://image-filter-starter-code-dev2222222222222.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2020/12/03/Lambda-container-image-support.png
